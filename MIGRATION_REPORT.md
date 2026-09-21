@@ -1,5 +1,7 @@
 # Migration report — robots.iit.edu
 
+This report records the initial local preservation stage. A separate GitHub Pages test was subsequently configured at https://mspenko.github.io/robots-iit/; see README.md for current hosting and deployment instructions. The original website and DNS remain unchanged.
+
 Captured 2026-09-21 from the public website. Destination: `C:\Users\mspen\OneDrive\Documents\Webpage Migration\robots-iit`.
 
 ## Downloaded

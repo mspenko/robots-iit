@@ -1,6 +1,6 @@
 # Robotics Lab at IIT — preserved static website
 
-This is a faithful static preservation of https://robots.iit.edu/, captured on 2026-09-21. The public site is the source of truth. Its text, page names, layout, colors, fonts, images, and slideshows are retained. No live-site, hosting, GitHub, or DNS settings were changed.
+This is a faithful static preservation of https://robots.iit.edu/, captured on 2026-09-21. The public site is the source of truth. Its text, page names, layout, colors, fonts, images, and slideshows are retained. The original live website and its DNS settings remain unchanged. A separate GitHub Pages test deployment is configured below.
 
 ## Preview locally
 
