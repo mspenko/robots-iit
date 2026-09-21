@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Soft Robotics - The Robotics Lab@IIT</title><meta content="The Robotics Lab@IIT" property="og:site_name"/>
+<meta content="Soft Robotics" property="og:title"/>
+<meta content="As taken from our submission to NSF: ​ This project will develop the framework to understand the modeling, sensing, control, design, and fabrication of a new class of soft robots. Most soft robots..." property="og:description"/>
+<meta content="https://robots.iit.edu/uploads/2/5/7/1/25715664/picture1_orig.png" property="og:image"/>
+<meta content="https://robots.iit.edu/soft-robotics.html" property="og:url"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="/assets/vendor/cdn2.editmysite.com/css/sites.css" id="wsite-base-style" rel="stylesheet" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/css/old/fancybox.css" rel="stylesheet" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/css/social-icons.css" media="screen,projection" rel="stylesheet" type="text/css"/>
+<link href="/files/main_style.css" rel="stylesheet" title="wsite-theme-css" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/fonts/Lato/font.css" rel="stylesheet" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/fonts/Fjalla_One/font.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+<style>
+.wsite-background {background-image: url("/uploads/2/5/7/1/25715664/background-images/388835537.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 0 !important;background-size: auto !important;background-color: transparent !important;background: inherit;}
+</style>
+
+
+<script src="/assets/vendor/cdn2.editmysite.com/js/jquery-1.8.3.min.js"></script>
+
+
+
+
+<link href="/files/static.css" rel="stylesheet"/><script defer="True" src="/files/static.js"></script></head>
+<body class="header-page wsite-theme-light wsite-page-soft-robotics"><div class="wrapper">
+<div class="paris-header">
+<div class="container">
+<a aria-label="Menu" class="hamburger" href="#"><span></span></a>
+<div class="logo"><span class="wsite-logo">
+<a href="/index.html">
+<span id="wsite-title">The Robotics Lab@IIT</span>
+</a>
+</span></div>
+<div class="nav desktop-nav"><ul class="wsite-menu-default">
+<li class="wsite-menu-item-wrap" id="pg373190465449559999">
+<a class="wsite-menu-item" href="/index.html">
+				Home
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg366456795954294082">
+<a class="wsite-menu-item" href="/people.html">
+				People
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg253158598188539785">
+<a class="wsite-menu-item" href="/research.html">
+				Research
+			</a>
+<div class="wsite-menu-wrap" style="display:none">
+<ul class="wsite-menu">
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-466248147478854177">
+<a class="wsite-menu-subitem" href="/multi-modal-locomotion.html">
+<span class="wsite-menu-title">
+			Multi-Modal Locomotion
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-100303692711121522">
+<a class="wsite-menu-subitem" href="/navigation-integrity.html">
+<span class="wsite-menu-title">
+			Navigation Integrity
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-298329406689515786">
+<a class="wsite-menu-subitem" href="/autonomous-flight.html">
+<span class="wsite-menu-title">
+			Autonomous Flight
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap wsite-nav-current" id="wsite-nav-183782053665928584">
+<a class="wsite-menu-subitem" href="/soft-robotics.html">
+<span class="wsite-menu-title">
+			Soft Robotics
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-476391415834215332">
+<a class="wsite-menu-subitem" href="/urban-design.html">
+<span class="wsite-menu-title">
+			Urban Design
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-101190067701563267">
+<a class="wsite-menu-subitem" href="/biologically-inspired-adhesives.html">
+<span class="wsite-menu-title">
+			Biologically Inspired Adhesives
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-936762675756119144">
+<a class="wsite-menu-subitem" href="/agility-and-manueverability.html">
+<span class="wsite-menu-title">
+			Agility and Manueverability
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-934173631779833333">
+<a class="wsite-menu-subitem" href="/vehicle-terrain-interaction-modeling.html">
+<span class="wsite-menu-title">
+			Vehicle Terrain Interaction Modeling
+		</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="wsite-menu-item-wrap" id="pg516854303926770506">
+<a class="wsite-menu-item" href="/publications.html">
+				Publications
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg767519404795990709">
+<a class="wsite-menu-item" href="/popular-media.html">
+				Popular Media
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg227924358306400962">
+<a class="wsite-menu-item" href="/teaching.html">
+				Teaching
+			</a>
+</li>
+</ul>
+</div>
+</div><!-- end .container -->
+</div><!-- end .header -->
+<div class="banner-wrap">
+<div class="wsite-elements wsite-not-footer wsite-header-elements">
+<div class="wsite-section-wrap">
+<div class="wsite-section wsite-header-section wsite-section-bg-image" style='background-image: url("/uploads/2/5/7/1/25715664/background-images/388835537.jpg") ;background-repeat: no-repeat ;background-position: 50% 0 ;background-size: auto ;background-color: transparent ;'>
+<div class="wsite-section-content">
+<div class="container">
+<div class="banner">
+<div class="wsite-section-elements">
+<h2 class="wsite-content-title">Soft Robotics</h2>
+</div>
+</div>
+</div>
+</div>
+<div class=""></div>
+</div>
+</div>
+</div>
+<!-- <span id="contentArrow"><span></span></span> -->
+</div>
+<div class="main-wrap">
+<div class="wsite-elements wsite-not-footer" id="wsite-content">
+<div class="wsite-section-wrap">
+<div class="wsite-section wsite-body-section wsite-background-15 wsite-custom-background">
+<div class="wsite-section-content">
+<div class="container">
+<div class="wsite-section-elements">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img alt="Picture" src="/uploads/2/5/7/1/25715664/picture1_orig.png" style="width:auto;max-width:100%"/>
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+<div class="paragraph">As taken from our submission to NSF:<br/>​<br/><span style="color:rgb(0, 0, 0)">This project will develop the framework to understand the modeling, sensing, control, design, and fabrication of a new class of soft robots. Most soft robots eschew the rigid links of traditional robots in favor of compliant structures. In contrast, the robot designed in this work has its "softness" emerge from the interactions among granular material encased in a flexible membrane. The concept is best visualized by considering an amoeba, in which an outer membrane loosely encapsulates a set of internal components. By allowing components on the periphery of the membrane to be active "sub-robots," much like the cilia on the periphery of a paramecium, the overall structure can move and deform like a boundary-constrained robotic swarm. Moreover, to manipulate objects and exert large forces on the environment, the robot will also have the unique ability to jam. Jamming occurs when particles become packed so closely that instead of flowing past each other (like coffee grounds in a can) they form a solid (like coffee grounds in a vacuum-packed bag). The results of this work may offer several advantages over traditional robots, including the ability to better conform to objects, physically interact with other soft structures such as animal tissue, and locomote in unstructured environments. This could impact several national needs, including providing inherently safe robots that work with or alongside humans to greatly improve US manufacturing competitiveness. The research also includes a comprehensive broadening participation plan with an emphasis on hiring underrepresented minorities as graduate research assistants and outreach to underrepresented minorities through a Research Experiences for Undergraduates program. This is coupled with societal outreach that builds upon the PI's previous involvement with the Chicago Museum of Science and Industry.</span><br/><br/><span style="color:rgb(0, 0, 0)">The robot developed here will be the first to expand upon the concept of granular soft robots by imagining the granules themselves as active robots. While similar to robotic swarms, this new class of robots differs significantly in that this project will be the first to examine how the aggregate of sub-robots physically interacts with its environment. To make this possible, novel modeling techniques will be created as well as sensing and actuation algorithms. Modeling will take into account both multi-body rigid dynamics for modeling the dynamics of sub-robot granules, large deformation continuum mechanics for modeling sub-robot connections, constraints to ensure the model predictions are physically viable, and Lagrangian mechanics to bring all the elements together. The sensing and actuation algorithms will exploit emergent intelligence of the boundary swarm to sense the external environment and robustly actuate distinct global behaviors in response to such distributed sensing without any centralized planning. The project enhances infrastructure through melding concepts and researchers from multiple disparate disciplines. In engineering, this includes dynamics and control, mechanics of materials and structures, materials engineering, and formal design theory. In physics, it encompasses areas of soft condensed matter, in particular the concepts of the jamming phase transition and the dynamics of "active matter."</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-wrap">
+<div class="container">
+<div class="footer"><div class="wsite-elements wsite-footer">
+<div class="paragraph" style="text-align:right;">copyright The Robotics Lab at IIT 2014<br/></div></div></div>
+</div><!-- end container -->
+</div><!-- end footer-wrap -->
+</div>
+<div class="nav mobile-nav">
+<a aria-label="Menu" class="hamburger" href="#"><span></span></a>
+<ul class="wsite-menu-default">
+<li class="wsite-menu-item-wrap" id="pg373190465449559999">
+<a class="wsite-menu-item" href="/index.html">
+        				Home
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg366456795954294082">
+<a class="wsite-menu-item" href="/people.html">
+        				People
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg253158598188539785">
+<a class="wsite-menu-item" href="/research.html">
+        				Research
+        			</a>
+<div class="wsite-menu-wrap" style="display:none">
+<ul class="wsite-menu">
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-466248147478854177">
+<a class="wsite-menu-subitem" href="/multi-modal-locomotion.html">
+<span class="wsite-menu-title">
+			Multi-Modal Locomotion
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-100303692711121522">
+<a class="wsite-menu-subitem" href="/navigation-integrity.html">
+<span class="wsite-menu-title">
+			Navigation Integrity
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-298329406689515786">
+<a class="wsite-menu-subitem" href="/autonomous-flight.html">
+<span class="wsite-menu-title">
+			Autonomous Flight
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap wsite-nav-current" id="wsite-nav-183782053665928584">
+<a class="wsite-menu-subitem" href="/soft-robotics.html">
+<span class="wsite-menu-title">
+			Soft Robotics
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-476391415834215332">
+<a class="wsite-menu-subitem" href="/urban-design.html">
+<span class="wsite-menu-title">
+			Urban Design
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-101190067701563267">
+<a class="wsite-menu-subitem" href="/biologically-inspired-adhesives.html">
+<span class="wsite-menu-title">
+			Biologically Inspired Adhesives
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-936762675756119144">
+<a class="wsite-menu-subitem" href="/agility-and-manueverability.html">
+<span class="wsite-menu-title">
+			Agility and Manueverability
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-934173631779833333">
+<a class="wsite-menu-subitem" href="/vehicle-terrain-interaction-modeling.html">
+<span class="wsite-menu-title">
+			Vehicle Terrain Interaction Modeling
+		</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="wsite-menu-item-wrap" id="pg516854303926770506">
+<a class="wsite-menu-item" href="/publications.html">
+        				Publications
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg767519404795990709">
+<a class="wsite-menu-item" href="/popular-media.html">
+        				Popular Media
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg227924358306400962">
+<a class="wsite-menu-item" href="/teaching.html">
+        				Teaching
+        			</a>
+</li>
+</ul>
+</div>
+<script src="/files/theme/plugins.js" type="text/javascript"></script>
+<script src="/files/theme/custom.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+</body>
+</html>

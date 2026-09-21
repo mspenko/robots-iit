@@ -1,0 +1,8 @@
+# Original source and audit files stay local; publish the static copy only.
+_migration/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Generated GitHub Pages artifact
+_site/

@@ -1,0 +1,11 @@
+/* Restore flyout placement formerly supplied by the remote service bundle. */
+.desktop-nav .wsite-menu-item-wrap { position: relative; }
+.desktop-nav .wsite-menu-wrap { position: absolute; top: 100%; left: 0; z-index: 1000; width: 200px; text-align: left; }
+.desktop-nav .wsite-menu-wrap .wsite-menu { margin: 0; padding: 0; list-style: none; }
+.desktop-nav .wsite-menu-wrap li { float: none; width: 200px; margin: 0; padding: 0; }
+.desktop-nav .wsite-menu-wrap a { display: block; white-space: normal; padding: 10px 5px; background: rgba(0,0,0,0.9); color: #fff; border-bottom: 1px solid #303030; font-family: 'Lato', sans-serif; font-size: 13px; font-weight: normal; line-height: normal; letter-spacing: normal; text-transform: none; box-sizing: border-box; }
+.desktop-nav .wsite-menu-wrap a:hover { background: rgba(0,0,0,0.9); border-left: 5px solid #139fda; }
+.desktop-nav .wsite-menu-title { display: block; padding: 5px 10px; }
+@media screen and (min-width: 993px) {
+  .paris-header, .desktop-nav { overflow: visible; }
+}

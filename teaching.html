@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Teaching - The Robotics Lab@IIT</title><meta content="The Robotics Lab@IIT" property="og:site_name"/>
+<meta content="Teaching" property="og:title"/>
+<meta content="MMAE 305: Dynamics.  A junior-level course in the dynamics of mechanical systems. MMAE 232: Design for Innovation is a sophomore-level, project based course that introduces to design.  Design and..." property="og:description"/>
+<meta content="https://robots.iit.edu/assets/vendor/cdn2.editmysite.com/images/site/footer/og-image-placeholder-blank.png" property="og:image"/>
+<meta content="https://robots.iit.edu/teaching.html" property="og:url"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="/assets/vendor/cdn2.editmysite.com/css/sites.css" id="wsite-base-style" rel="stylesheet" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/css/old/fancybox.css" rel="stylesheet" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/css/social-icons.css" media="screen,projection" rel="stylesheet" type="text/css"/>
+<link href="/files/main_style.css" rel="stylesheet" title="wsite-theme-css" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/fonts/Lato/font.css" rel="stylesheet" type="text/css"/>
+<link href="/assets/vendor/cdn2.editmysite.com/fonts/Fjalla_One/font.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+<style>
+.wsite-background {background-image: url("/uploads/2/5/7/1/25715664/background-images/388835537.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 0 !important;background-size: auto !important;background-color: transparent !important;background: inherit;}
+</style>
+
+
+<script src="/assets/vendor/cdn2.editmysite.com/js/jquery-1.8.3.min.js"></script>
+
+
+
+
+<link href="/files/static.css" rel="stylesheet"/><script defer="True" src="/files/static.js"></script></head>
+<body class="header-page wsite-theme-light wsite-page-teaching"><div class="wrapper">
+<div class="paris-header">
+<div class="container">
+<a aria-label="Menu" class="hamburger" href="#"><span></span></a>
+<div class="logo"><span class="wsite-logo">
+<a href="/index.html">
+<span id="wsite-title">The Robotics Lab@IIT</span>
+</a>
+</span></div>
+<div class="nav desktop-nav"><ul class="wsite-menu-default">
+<li class="wsite-menu-item-wrap" id="pg373190465449559999">
+<a class="wsite-menu-item" href="/index.html">
+				Home
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg366456795954294082">
+<a class="wsite-menu-item" href="/people.html">
+				People
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg253158598188539785">
+<a class="wsite-menu-item" href="/research.html">
+				Research
+			</a>
+<div class="wsite-menu-wrap" style="display:none">
+<ul class="wsite-menu">
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-466248147478854177">
+<a class="wsite-menu-subitem" href="/multi-modal-locomotion.html">
+<span class="wsite-menu-title">
+			Multi-Modal Locomotion
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-100303692711121522">
+<a class="wsite-menu-subitem" href="/navigation-integrity.html">
+<span class="wsite-menu-title">
+			Navigation Integrity
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-298329406689515786">
+<a class="wsite-menu-subitem" href="/autonomous-flight.html">
+<span class="wsite-menu-title">
+			Autonomous Flight
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-183782053665928584">
+<a class="wsite-menu-subitem" href="/soft-robotics.html">
+<span class="wsite-menu-title">
+			Soft Robotics
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-476391415834215332">
+<a class="wsite-menu-subitem" href="/urban-design.html">
+<span class="wsite-menu-title">
+			Urban Design
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-101190067701563267">
+<a class="wsite-menu-subitem" href="/biologically-inspired-adhesives.html">
+<span class="wsite-menu-title">
+			Biologically Inspired Adhesives
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-936762675756119144">
+<a class="wsite-menu-subitem" href="/agility-and-manueverability.html">
+<span class="wsite-menu-title">
+			Agility and Manueverability
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-934173631779833333">
+<a class="wsite-menu-subitem" href="/vehicle-terrain-interaction-modeling.html">
+<span class="wsite-menu-title">
+			Vehicle Terrain Interaction Modeling
+		</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="wsite-menu-item-wrap" id="pg516854303926770506">
+<a class="wsite-menu-item" href="/publications.html">
+				Publications
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg767519404795990709">
+<a class="wsite-menu-item" href="/popular-media.html">
+				Popular Media
+			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="active">
+<a class="wsite-menu-item" href="/teaching.html">
+				Teaching
+			</a>
+</li>
+</ul>
+</div>
+</div><!-- end .container -->
+</div><!-- end .header -->
+<div class="banner-wrap">
+<div class="wsite-elements wsite-not-footer wsite-header-elements">
+<div class="wsite-section-wrap">
+<div class="wsite-section wsite-header-section wsite-section-bg-image" style='height: auto;vertical-align: middle;background-image: url("/uploads/2/5/7/1/25715664/background-images/388835537.jpg") ;background-repeat: no-repeat ;background-position: 50% 0 ;background-size: auto ;background-color: transparent ;'>
+<div class="wsite-section-content">
+<div class="container">
+<div class="banner">
+<div class="wsite-section-elements">
+<div class="wsite-spacer" style="height:51px;"></div>
+<h2 class="wsite-content-title">Teaching</h2>
+</div>
+</div>
+</div>
+</div>
+<div class=""></div>
+</div>
+</div>
+</div>
+<!-- <span id="contentArrow"><span></span></span> -->
+</div>
+<div class="main-wrap">
+<div class="wsite-elements wsite-not-footer" id="wsite-content">
+<div class="wsite-section-wrap">
+<div class="wsite-section wsite-body-section wsite-background-5 wsite-custom-background">
+<div class="wsite-section-content">
+<div class="container">
+<div class="wsite-section-elements">
+<h2 class="wsite-content-title" style="text-align:left;">Active Courses<br/></h2>
+<div class="paragraph" style="text-align:left;">MMAE 305: Dynamics.  A junior-level course in the dynamics of mechanical systems.<a href="http://mechanicaldesign.iit.edu" target="_blank"><br/><br/>MMAE 232: Design for Innovation</a> is a sophomore-level, project based course that introduces to design.  Design and development of mechanical systems. The design process, isometric sketching, engineering drawings, CAD, sustainable design, whole-system design and life-cycle thinking, design for product lifetime, light-weighting, technical writing, bio-inspired design process, bio-inspired design for locomotion, mechanism and linkage design, actuators, triggers, engineering and ethics, engineering and law.  Team-based design and build projects focusing on sustainable design techniques, bio-inspired locomotion, and mechatronics. <br/><br/><a href="http://mechanicaldesign.iit.edu" target="_blank"><span>MMAE </span>432: Design of Mechanical Systems</a> is a capstone design course taken by all Mechanical Engineering students the spring of their senior year. At the end of this course students should have a good grasp of the design process and how to integrate design with the analysis taught in previous courses. This course will serve as a guide to transferring the skills that the students learned in the classroom into becoming an engineer in industry or a graduate student in the field. The focus of the class will be a team-based project conceptualized and developed by the students.<br/><br/>MMAE 539: Robot Localization and Motion Planning is a graduate-level course on the probabilistic robotics techniques as they are applied to localization and planning<br/>​<br/><span>﻿</span><span style="color:rgb(98, 98, 98); font-weight:400">MMAE 540: Introduction to Robotics is a graduate-level course on </span>the kinematics, dynamics, and control, of manipulators and mobile robots.<br/></div>
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"/>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+<h2 class="wsite-content-title" style="text-align:left;">Previous Courses<br/></h2>
+<div class="paragraph" style="text-align:left;">MMAE 305: Dynamics.  A junior-level course in the dynamics of mechanical systems.<br/><br/><span>MMAE 551: Experimental Mechatronics.  An introductory, project-based, graduate-level course in mechatronics</span>.<br/></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-wrap">
+<div class="container">
+<div class="footer"><div class="wsite-elements wsite-footer">
+<div class="paragraph" style="text-align:right;">copyright The Robotics Lab at IIT 2014<br/></div></div></div>
+</div><!-- end container -->
+</div><!-- end footer-wrap -->
+</div>
+<div class="nav mobile-nav">
+<a aria-label="Menu" class="hamburger" href="#"><span></span></a>
+<ul class="wsite-menu-default">
+<li class="wsite-menu-item-wrap" id="pg373190465449559999">
+<a class="wsite-menu-item" href="/index.html">
+        				Home
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg366456795954294082">
+<a class="wsite-menu-item" href="/people.html">
+        				People
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg253158598188539785">
+<a class="wsite-menu-item" href="/research.html">
+        				Research
+        			</a>
+<div class="wsite-menu-wrap" style="display:none">
+<ul class="wsite-menu">
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-466248147478854177">
+<a class="wsite-menu-subitem" href="/multi-modal-locomotion.html">
+<span class="wsite-menu-title">
+			Multi-Modal Locomotion
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-100303692711121522">
+<a class="wsite-menu-subitem" href="/navigation-integrity.html">
+<span class="wsite-menu-title">
+			Navigation Integrity
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-298329406689515786">
+<a class="wsite-menu-subitem" href="/autonomous-flight.html">
+<span class="wsite-menu-title">
+			Autonomous Flight
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-183782053665928584">
+<a class="wsite-menu-subitem" href="/soft-robotics.html">
+<span class="wsite-menu-title">
+			Soft Robotics
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-476391415834215332">
+<a class="wsite-menu-subitem" href="/urban-design.html">
+<span class="wsite-menu-title">
+			Urban Design
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-101190067701563267">
+<a class="wsite-menu-subitem" href="/biologically-inspired-adhesives.html">
+<span class="wsite-menu-title">
+			Biologically Inspired Adhesives
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-936762675756119144">
+<a class="wsite-menu-subitem" href="/agility-and-manueverability.html">
+<span class="wsite-menu-title">
+			Agility and Manueverability
+		</span>
+</a>
+</li>
+<li class="wsite-menu-subitem-wrap" id="wsite-nav-934173631779833333">
+<a class="wsite-menu-subitem" href="/vehicle-terrain-interaction-modeling.html">
+<span class="wsite-menu-title">
+			Vehicle Terrain Interaction Modeling
+		</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="wsite-menu-item-wrap" id="pg516854303926770506">
+<a class="wsite-menu-item" href="/publications.html">
+        				Publications
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="pg767519404795990709">
+<a class="wsite-menu-item" href="/popular-media.html">
+        				Popular Media
+        			</a>
+</li>
+<li class="wsite-menu-item-wrap" id="active">
+<a class="wsite-menu-item" href="/teaching.html">
+        				Teaching
+        			</a>
+</li>
+</ul>
+</div>
+<script src="/files/theme/plugins.js" type="text/javascript"></script>
+<script src="/files/theme/custom.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+</body>
+</html>
